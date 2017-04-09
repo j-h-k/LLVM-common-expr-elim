@@ -26,3 +26,7 @@ cat projecttest.ll (before pass) ->
 				store expression
 		return is modified?
 ```
+
+# Key Information
+
+The common-expr-elim pass **SHOULD FOLLOW AFTER MEM2REG PASS**.
